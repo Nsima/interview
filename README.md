@@ -33,6 +33,7 @@ This repo contains a Smart Contract for Depositing and Withdrawing an ERC20token
 -   Node
 -   Reactjs
 -   TailwindCSS
+-   Alchemy
 
 ## **Prerequisites**
 -   npm
@@ -91,16 +92,5 @@ npx hardhat test
 ```
 
 
-## **Deploy to Blockchain Network** (Sepolia)
+## **Deploy to Blockchain Network** (Alchemy)
 
--   To a specific testnet
-
-```sh
-npx hardhat --network <network-name-in-tsconfig> deploy -- tags <deploy-script-tags>
-```
-
--   To local development network (to test deployment)
-
-```sh
-npx hardhat deploy -- tags <deploy-script-tags>
-```
